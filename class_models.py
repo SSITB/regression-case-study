@@ -6,7 +6,7 @@ from sklearn.metrics import mean_squared_error
 from sklearn.model_selection import cross_val_score
 from sklearn.model_selection import KFold
 
- 
+
 class Linear():
     def __init__(self,X,y):
         self.X = X
