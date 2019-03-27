@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from class_features import Features
 from class_models import Linear, GLM
 import scipy.stats as scs
-
+ 
 metadata = pd.read_excel('data/Data Dictionary.xlsx')
 Train = pd.read_csv('data/Train.csv')
 Test = pd.read_csv('data/Test.csv')
